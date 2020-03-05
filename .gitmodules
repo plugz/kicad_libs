@@ -16,3 +16,6 @@
 [submodule "kicad-symbols"]
 	path = kicad-symbols
 	url = https://github.com/kicad/kicad-symbols
+[submodule "kicad-templates"]
+	path = kicad-templates
+	url = https://github.com/kicad/kicad-templates
