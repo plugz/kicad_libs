@@ -19,3 +19,6 @@
 [submodule "kicad-templates"]
 	path = kicad-templates
 	url = https://github.com/kicad/kicad-templates
+[submodule "teensy_library"]
+	path = teensy_library
+	url = https://github.com/XenGi/teensy_library
