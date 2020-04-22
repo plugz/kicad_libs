@@ -14,6 +14,7 @@ add libraries in fp-lib-table
   (lib (name digikey-symbols)(type KiCad)(uri ${PLUGZ_KICAD_LIBS_DIR}/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
   (lib (name Converter_DCDC)(type KiCad)(uri ${PLUGZ_KICAD_LIBS_DIR}/kicad-footprints/Converter_DCDC.pretty)(options "")(descr ""))
   (lib (name Capacitor_THT)(type KiCad)(uri ${PLUGZ_KICAD_LIBS_DIR}/kicad-footprints/Capacitor_THT.pretty)(options "")(descr ""))
+  (lib (name Potentiometer_THT)(type KiCad)(uri ${PLUGZ_KICAD_LIBS_DIR}/kicad-footprints/Potentiometer_THT.pretty)(options "")(descr ""))
 
 add libraries in sym-lib-table
   (lib (name ESP8266)(type Legacy)(uri ${PLUGZ_KICAD_LIBS_DIR}/kicad-ESP8266/ESP8266.lib)(options "")(descr ""))
