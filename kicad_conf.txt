@@ -11,7 +11,7 @@ add libraries in fp-lib-table
   (lib (name Connector_PinHeader_2.54mm)(type KiCad)(uri ${PLUGZ_KICAD_LIBS_DIR}/kicad-footprints/Connector_PinHeader_2.54mm.pretty)(options "")(descr ""))
   (lib (name MountingHole)(type KiCad)(uri ${PLUGZ_KICAD_LIBS_DIR}/kicad-footprints/MountingHole.pretty)(options "")(descr ""))
   (lib (name homemade_footprints)(type KiCad)(uri ${PLUGZ_KICAD_LIBS_DIR}/homemade_footprints.pretty)(options "")(descr ""))
-  (lib (name digikey-symbols)(type KiCad)(uri ${PLUGZ_KICAD_LIBS_DIR}/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri ${PLUGZ_KICAD_LIBS_DIR}/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
   (lib (name Converter_DCDC)(type KiCad)(uri ${PLUGZ_KICAD_LIBS_DIR}/kicad-footprints/Converter_DCDC.pretty)(options "")(descr ""))
   (lib (name Capacitor_THT)(type KiCad)(uri ${PLUGZ_KICAD_LIBS_DIR}/kicad-footprints/Capacitor_THT.pretty)(options "")(descr ""))
   (lib (name Potentiometer_THT)(type KiCad)(uri ${PLUGZ_KICAD_LIBS_DIR}/kicad-footprints/Potentiometer_THT.pretty)(options "")(descr ""))
