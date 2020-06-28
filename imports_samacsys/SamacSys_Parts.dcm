@@ -12,4 +12,10 @@ K
 F http://www.ti.com/lit/gpn/TMDS261B
 $ENDCMP
 #
+$CMP 10029449-111RLF
+D HDMI, Displayport & DVI Connectors HDMI REC TYPE A RA SMT
+K
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10029449.pdf
+$ENDCMP
+#
 #End Doc Library
