@@ -18,4 +18,10 @@ K
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10029449.pdf
 $ENDCMP
 #
+$CMP TPD12S521DBTR
+D HDMI Transmitter Port Protection and Interface Device
+K
+F http://www.ti.com/lit/ds/symlink/tpd12s521.pdf
+$ENDCMP
+#
 #End Doc Library
