@@ -1,3 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 24LCS22A-ISN
+D EDID EEPROM
+K EDID EEPROM
+F https://www.ti.com/lit/ds/symlink/pca9543a.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1594748884568
+$ENDCMP
+#
+$CMP PCA9541APW
+D 2 in 1 out i2c mux
+K I2C Hub
+F https://www.mouser.fr/datasheet/2/302/PCA9541A-1127542.pdf
+$ENDCMP
+#
+$CMP PCA9543AD
+D 1 in 2 out i2c mux
+K I2C Hub
+F https://www.ti.com/lit/ds/symlink/pca9543a.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1594748884568
+$ENDCMP
+#
 #End Doc Library
