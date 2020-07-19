@@ -6,6 +6,10 @@ K EDID EEPROM
 F https://www.ti.com/lit/ds/symlink/pca9543a.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1594748884568
 $ENDCMP
 #
+$CMP CAT24C208
+F https://www.mouser.fr/datasheet/2/308/CAT24C208-D-1802958.pdf
+$ENDCMP
+#
 $CMP PCA9541APW
 D 2 in 1 out i2c mux
 K I2C Hub
