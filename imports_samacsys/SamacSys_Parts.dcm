@@ -24,4 +24,10 @@ K
 F http://www.ti.com/lit/ds/symlink/tpd12s521.pdf
 $ENDCMP
 #
+$CMP 74LVC1G17GV-Q100,1
+D 74LVC1G17-Q100 - Single Schmitt trigger buffer@en-us
+K
+F https://componentsearchengine.com/Datasheets/1/74LVC1G17GV-Q100,1.pdf
+$ENDCMP
+#
 #End Doc Library
