@@ -36,4 +36,16 @@ K
 F https://www.molex.com/pdm_docs/sd/472720029_sd.pdf
 $ENDCMP
 #
+$CMP D5V0F4U10MR-13
+D Diodes Inc D5V0F4U10MR-13 Quad Uni-Directional TVS Diode Array, 500mW peak, 10-Pin MSOP
+K
+F https://www.diodes.com/assets/Datasheets/D5V0F4U10MR.pdf
+$ENDCMP
+#
+$CMP PCA9543APW,118
+D 2-channel I2C-bus switch with interrupt logic and reset
+K
+F http://www.nxp.com/docs/en/data-sheet/PCA9543A_43B.pdf
+$ENDCMP
+#
 #End Doc Library
