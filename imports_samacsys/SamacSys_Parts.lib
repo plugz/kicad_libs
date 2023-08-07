@@ -1,35 +1,33 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #SamacSys ECAD Model NE555DR
-#/6648/2/2.37/8/4/Integrated Circuit
+#/6648/278150/2.50/8/4/Integrated Circuit
 DEF NE555DR IC 0 30 Y Y 1 F N
 F0 "IC" 1050 600 50 H V L CNN
 F1 "NE555DR" 1050 500 50 H V L CNN
 F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
-F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F3 "https://www.ti.com/lit/gpn/ne555" 1050 300 50 H I L CNN
 F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
 F5 "1.75" 1050 100 50 H I L CNN "Height"
-F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
-F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
-F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
-F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
-F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+F6 "" 1050 0 50 H I L CNN "Mouser2 Part Number"
+F7 "" 1050 -100 50 H I L CNN "Mouser2 Price/Stock"
+F8 "Texas Instruments" 1050 -200 50 H I L CNN "Manufacturer_Name"
+F9 "NE555DR" 1050 -300 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
-X GND 1 600 -1000 200 U 50 50 0 0 B
-X TRIG 2 0 -400 200 R 50 50 0 0 B
-X OUT 3 1200 -200 200 L 50 50 0 0 B
-X ~RESET 4 0 0 200 R 50 50 0 0 B
-X CONT 5 500 600 200 D 50 50 0 0 B
-X THRES 6 0 -300 200 R 50 50 0 0 B
-X DISCH 7 0 -100 200 R 50 50 0 0 B
-X VCC 8 700 600 200 D 50 50 0 0 B
+X GND 1 600 -1000 200 U 50 50 0 0 P
+X TRIG 2 0 -400 200 R 50 50 0 0 P
+X OUT 3 1200 0 200 L 50 50 0 0 P
+X ~RESET 4 0 0 200 R 50 50 0 0 P
+X CONT 5 500 600 200 D 50 50 0 0 P
+X THRES 6 0 -300 200 R 50 50 0 0 P
+X DISCH 7 0 -100 200 R 50 50 0 0 P
+X VCC 8 700 600 200 D 50 50 0 0 P
 P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
 ENDDRAW
 ENDDEF
 #
 #SamacSys ECAD Model TMDS261BPAGR
-#/607445/278150/2.47/64/3/Integrated Circuit
+#/607445/278150/2.50/64/3/Integrated Circuit
 DEF TMDS261BPAGR IC 0 30 Y Y 1 F N
 F0 "IC" 1950 800 50 H V L CNN
 F1 "TMDS261BPAGR" 1950 700 50 H V L CNN
@@ -37,8 +35,8 @@ F2 "QFP50P1200X1200X120-64N" 1950 600 50 H I L CNN
 F3 "http://www.ti.com/lit/gpn/TMDS261B" 1950 500 50 H I L CNN
 F4 "Two-Port HDMI Switch" 1950 400 50 H I L CNN "Description"
 F5 "1.2" 1950 300 50 H I L CNN "Height"
-F6 "595-TMDS261BPAGR" 1950 200 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TMDS261BPAGR" 1950 100 50 H I L CNN "Mouser Price/Stock"
+F6 "" 1950 200 50 H I L CNN "Mouser2 Part Number"
+F7 "" 1950 100 50 H I L CNN "Mouser2 Price/Stock"
 F8 "Texas Instruments" 1950 0 50 H I L CNN "Manufacturer_Name"
 F9 "TMDS261BPAGR" 1950 -100 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
@@ -111,17 +109,17 @@ ENDDRAW
 ENDDEF
 #
 #SamacSys ECAD Model 10029449-111RLF
-#/1540451/278150/2.47/23/4/Connector
+#/16013875/278150/2.50/23/3/Connector
 DEF 10029449-111RLF J 0 30 Y Y 1 F N
 F0 "J" 850 300 50 H V L CNN
 F1 "10029449-111RLF" 850 200 50 H V L CNN
 F2 "10029449111RLF" 850 100 50 H I L CNN
-F3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10029449.pdf" 850 0 50 H I L CNN
-F4 "HDMI, Displayport & DVI Connectors HDMI REC TYPE A RA SMT" 850 -100 50 H I L CNN "Description"
-F5 "15.4" 850 -200 50 H I L CNN "Height"
-F6 "649-10029449-111RLF" 850 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10029449-111RLF?qs=fmpTyLOWOey0HPdD9%2F%2FaXA%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Amphenol" 850 -500 50 H I L CNN "Manufacturer_Name"
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10029449.pdf" 850 0 50 H I L CNN
+F4 "AMPHENOL COMMUNICATIONS SOLUTIONS - 10029449-111RLF - HDMI Connector, Type A, Gold Flash, 19 Contacts, Receptacle, Surface Mount" 850 -100 50 H I L CNN "Description"
+F5 "6.38" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "Mouser2 Part Number"
+F7 "" 850 -400 50 H I L CNN "Mouser2 Price/Stock"
+F8 "Amphenol Communications Solutions" 850 -500 50 H I L CNN "Manufacturer_Name"
 F9 "10029449-111RLF" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
 X 1 1 0 0 200 R 50 50 0 0 P
@@ -152,7 +150,7 @@ ENDDRAW
 ENDDEF
 #
 #SamacSys ECAD Model TPD12S521DBTR
-#/182713/278150/2.47/38/3/Integrated Circuit
+#/182713/278150/2.50/38/3/Integrated Circuit
 DEF TPD12S521DBTR IC 0 30 Y Y 1 F N
 F0 "IC" 2050 300 50 H V L CNN
 F1 "TPD12S521DBTR" 2050 200 50 H V L CNN
@@ -160,87 +158,87 @@ F2 "SOP50P640X120-38N" 2050 100 50 H I L CNN
 F3 "http://www.ti.com/lit/ds/symlink/tpd12s521.pdf" 2050 0 50 H I L CNN
 F4 "HDMI Transmitter Port Protection and Interface Device" 2050 -100 50 H I L CNN "Description"
 F5 "1.2" 2050 -200 50 H I L CNN "Height"
-F6 "595-TPD12S521DBTR" 2050 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD12S521DBTR?qs=XGzIaZb%2FFYI8fSEzXwwy6A%3D%3D" 2050 -400 50 H I L CNN "Mouser Price/Stock"
+F6 "595-TPD12S521DBTR" 2050 -300 50 H I L CNN "Mouser2 Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TPD12S521DBTR" 2050 -400 50 H I L CNN "Mouser2 Price/Stock"
 F8 "Texas Instruments" 2050 -500 50 H I L CNN "Manufacturer_Name"
 F9 "TPD12S521DBTR" 2050 -600 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
-X 5V_SUPPLY 1 0 0 200 R 50 50 0 0 O
+X 5V_SUPPLY 1 0 0 200 R 50 50 0 0 P
 X LV_SUPPLY 2 0 -100 200 R 50 50 0 0 P
-X GND 3 0 -200 200 R 50 50 0 0 W
-X TMDS_D2+ 4 0 -300 200 R 50 50 0 0 P
-X TMDS_GND 5 0 -400 200 R 50 50 0 0 W
-X TMDS_D2- 6 0 -500 200 R 50 50 0 0 P
-X TMDS_D1+ 7 0 -600 200 R 50 50 0 0 P
-X TMDS_GND_1 8 0 -700 200 R 50 50 0 0 W
-X TMDS_D1- 9 0 -800 200 R 50 50 0 0 P
-X TMDS_D0+ 10 0 -900 200 R 50 50 0 0 P
-X TMDS_GND_2 11 0 -1000 200 R 50 50 0 0 W
-X TMDS_D0- 12 0 -1100 200 R 50 50 0 0 P
-X TMDS_CK+ 13 0 -1200 200 R 50 50 0 0 P
-X TMDS_GND_3 14 0 -1300 200 R 50 50 0 0 W
-X TMDS_CK- 15 0 -1400 200 R 50 50 0 0 P
-X CE_REMOTE_IN 16 0 -1500 200 R 50 50 0 0 I
-X DDC_CLK_IN 17 0 -1600 200 R 50 50 0 0 I
-X DDC_DAT_IN 18 0 -1700 200 R 50 50 0 0 I
-X HOTPLUG_DET_IN 19 0 -1800 200 R 50 50 0 0 I
-X 5V_OUT 38 2200 0 200 L 50 50 0 0 O
+X GND_1 3 0 -200 200 R 50 50 0 0 P
+X TMDS_D2+_1 4 0 -300 200 R 50 50 0 0 P
+X TMDS_GND_1 5 0 -400 200 R 50 50 0 0 P
+X TMDS_D2-_1 6 0 -500 200 R 50 50 0 0 P
+X TMDS_D1+_1 7 0 -600 200 R 50 50 0 0 P
+X TMDS_GND_2 8 0 -700 200 R 50 50 0 0 P
+X TMDS_D1-_1 9 0 -800 200 R 50 50 0 0 P
+X TMDS_D0+_1 10 0 -900 200 R 50 50 0 0 P
+X TMDS_GND_3 11 0 -1000 200 R 50 50 0 0 P
+X TMDS_D0-_1 12 0 -1100 200 R 50 50 0 0 P
+X TMDS_CK+_1 13 0 -1200 200 R 50 50 0 0 P
+X TMDS_GND_4 14 0 -1300 200 R 50 50 0 0 P
+X TMDS_CK-_1 15 0 -1400 200 R 50 50 0 0 P
+X CE_REMOTE_IN 16 0 -1500 200 R 50 50 0 0 P
+X DDC_CLK_IN 17 0 -1600 200 R 50 50 0 0 P
+X DDC_DAT_IN 18 0 -1700 200 R 50 50 0 0 P
+X HOTPLUG_DET_IN 19 0 -1800 200 R 50 50 0 0 P
+X 5V_OUT 38 2200 0 200 L 50 50 0 0 P
 X ESD_BYP 37 2200 -100 200 L 50 50 0 0 P
-X GND_1 36 2200 -200 200 L 50 50 0 0 W
-X TMDS_D2+_1 35 2200 -300 200 L 50 50 0 0 P
-X TMDS_GND_7 34 2200 -400 200 L 50 50 0 0 W
-X TMDS_D2-_1 33 2200 -500 200 L 50 50 0 0 P
-X TMDS_D1+_1 32 2200 -600 200 L 50 50 0 0 P
-X TMDS_GND_6 31 2200 -700 200 L 50 50 0 0 W
-X TMDS_D1-_1 30 2200 -800 200 L 50 50 0 0 P
-X TMDS_D0+_1 29 2200 -900 200 L 50 50 0 0 P
-X TMDS_GND_5 28 2200 -1000 200 L 50 50 0 0 W
-X TMDS_D0-_1 27 2200 -1100 200 L 50 50 0 0 P
-X TMDS_CK+_1 26 2200 -1200 200 L 50 50 0 0 P
-X TMDS_GND_4 25 2200 -1300 200 L 50 50 0 0 W
-X TMDS_CK-_1 24 2200 -1400 200 L 50 50 0 0 P
-X CE_REMOTE_OUT 23 2200 -1500 200 L 50 50 0 0 O
-X DDC_CLK_OUT 22 2200 -1600 200 L 50 50 0 0 O
-X DDC_DAT_OUT 21 2200 -1700 200 L 50 50 0 0 O
-X HOTPLUG_DET_OUT 20 2200 -1800 200 L 50 50 0 0 O
+X GND_2 36 2200 -200 200 L 50 50 0 0 P
+X TMDS_D2+_2 35 2200 -300 200 L 50 50 0 0 P
+X TMDS_GND_8 34 2200 -400 200 L 50 50 0 0 P
+X TMDS_D2-_2 33 2200 -500 200 L 50 50 0 0 P
+X TMDS_D1+_2 32 2200 -600 200 L 50 50 0 0 P
+X TMDS_GND_7 31 2200 -700 200 L 50 50 0 0 P
+X TMDS_D1-_2 30 2200 -800 200 L 50 50 0 0 P
+X TMDS_D0+_2 29 2200 -900 200 L 50 50 0 0 P
+X TMDS_GND_6 28 2200 -1000 200 L 50 50 0 0 P
+X TMDS_D0-_2 27 2200 -1100 200 L 50 50 0 0 P
+X TMDS_CK+_2 26 2200 -1200 200 L 50 50 0 0 P
+X TMDS_GND_5 25 2200 -1300 200 L 50 50 0 0 P
+X TMDS_CK-_2 24 2200 -1400 200 L 50 50 0 0 P
+X CE_REMOTE_OUT 23 2200 -1500 200 L 50 50 0 0 P
+X DDC_CLK_OUT 22 2200 -1600 200 L 50 50 0 0 P
+X DDC_DAT_OUT 21 2200 -1700 200 L 50 50 0 0 P
+X HOTPLUG_DET_OUT 20 2200 -1800 200 L 50 50 0 0 P
 P 5 0 1 6 200 100 2000 100 2000 -1900 200 -1900 200 100 N
 ENDDRAW
 ENDDEF
 #
 #SamacSys ECAD Model 74LVC1G17GV-Q100,1
-#/921812/278150/2.47/5/2/Integrated Circuit
+#/921812/278150/2.50/5/2/Integrated Circuit
 DEF 74LVC1G17GV-Q100,1 IC 0 30 Y Y 1 F N
 F0 "IC" 950 300 50 H V L CNN
 F1 "74LVC1G17GV-Q100,1" 950 200 50 H V L CNN
 F2 "SOT95P275X110-5N" 950 100 50 H I L CNN
-F3 "https://componentsearchengine.com/Datasheets/1/74LVC1G17GV-Q100,1.pdf" 950 0 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74LVC1G17_Q100.pdf" 950 0 50 H I L CNN
 F4 "74LVC1G17-Q100 - Single Schmitt trigger buffer@en-us" 950 -100 50 H I L CNN "Description"
 F5 "1.1" 950 -200 50 H I L CNN "Height"
-F6 "771-74LVC1G17GV-Q100" 950 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=771-74LVC1G17GV-Q100" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F6 "" 950 -300 50 H I L CNN "Mouser2 Part Number"
+F7 "" 950 -400 50 H I L CNN "Mouser2 Price/Stock"
 F8 "Nexperia" 950 -500 50 H I L CNN "Manufacturer_Name"
 F9 "74LVC1G17GV-Q100,1" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
-X ~ 1 0 0 200 R 50 50 0 0 P
-X ~ 2 0 -100 200 R 50 50 0 0 P
-X ~ 3 0 -200 200 R 50 50 0 0 P
-X ~ 4 1100 0 200 L 50 50 0 0 P
-X ~ 5 1100 -100 200 L 50 50 0 0 P
+X n.c. 1 0 0 200 R 50 50 0 0 P
+X A 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X Y 4 1100 0 200 L 50 50 0 0 P
+X VCC 5 1100 -100 200 L 50 50 0 0 P
 P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
 ENDDRAW
 ENDDEF
 #
 #SamacSys ECAD Model 47272-0029
-#/925385/278150/2.49/24/4/Connector
+#/925385/278150/2.50/24/4/Connector
 DEF 47272-0029 J 0 30 Y Y 1 F N
 F0 "J" 850 300 50 H V L CNN
 F1 "47272-0029" 850 200 50 H V L CNN
 F2 "472720029" 850 100 50 H I L CNN
-F3 "https://www.molex.com/pdm_docs/sd/472720029_sd.pdf" 850 0 50 H I L CNN
+F3 "https://componentsearchengine.com//47272-0029.pdf" 850 0 50 H I L CNN
 F4 "HDMI, Displayport & DVI Connectors 1.0 DISPLAY PORT HDR ASSY LEAD FREE" 850 -100 50 H I L CNN "Description"
 F5 "6.9" 850 -200 50 H I L CNN "Height"
-F6 "538-47272-0029" 850 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/Molex/47272-0029?qs=R8Vl3J6srxyrbHtT7SkUeQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F6 "538-47272-0029" 850 -300 50 H I L CNN "Mouser2 Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-47272-0029" 850 -400 50 H I L CNN "Mouser2 Price/Stock"
 F8 "Molex" 850 -500 50 H I L CNN "Manufacturer_Name"
 F9 "47272-0029" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
@@ -273,7 +271,7 @@ ENDDRAW
 ENDDEF
 #
 #SamacSys ECAD Model D5V0F4U10MR-13
-#/14861644/278150/2.49/10/0/TVS Diode (Bi-directional)
+#/440857/278150/2.50/10/3/TVS Diode (Bi-directional)
 DEF D5V0F4U10MR-13 D 0 30 Y Y 1 F N
 F0 "D" 950 300 50 H V L CNN
 F1 "D5V0F4U10MR-13" 950 200 50 H V L CNN
@@ -281,8 +279,8 @@ F2 "SOP50P490X110-10N" 950 100 50 H I L CNN
 F3 "https://www.diodes.com/assets/Datasheets/D5V0F4U10MR.pdf" 950 0 50 H I L CNN
 F4 "Diodes Inc D5V0F4U10MR-13 Quad Uni-Directional TVS Diode Array, 500mW peak, 10-Pin MSOP" 950 -100 50 H I L CNN "Description"
 F5 "1.1" 950 -200 50 H I L CNN "Height"
-F6 "" 950 -300 50 H I L CNN "Mouser Part Number"
-F7 "" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F6 "" 950 -300 50 H I L CNN "Mouser2 Part Number"
+F7 "" 950 -400 50 H I L CNN "Mouser2 Price/Stock"
 F8 "Diodes Inc." 950 -500 50 H I L CNN "Manufacturer_Name"
 F9 "D5V0F4U10MR-13" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
@@ -301,7 +299,7 @@ ENDDRAW
 ENDDEF
 #
 #SamacSys ECAD Model PCA9543APW,118
-#/601392/278150/2.49/14/3/Integrated Circuit
+#/601392/278150/2.50/14/3/Integrated Circuit
 DEF PCA9543APW,118 IC 0 30 Y Y 1 F N
 F0 "IC" 1150 300 50 H V L CNN
 F1 "PCA9543APW,118" 1150 200 50 H V L CNN
@@ -309,8 +307,8 @@ F2 "SOP65P640X110-14N" 1150 100 50 H I L CNN
 F3 "http://www.nxp.com/docs/en/data-sheet/PCA9543A_43B.pdf" 1150 0 50 H I L CNN
 F4 "2-channel I2C-bus switch with interrupt logic and reset" 1150 -100 50 H I L CNN "Description"
 F5 "1.1" 1150 -200 50 H I L CNN "Height"
-F6 "771-PCA9543APW-T" 1150 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCA9543APW118?qs=LOCUfHb8d9v2%2FlWY3019Hw%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F6 "" 1150 -300 50 H I L CNN "Mouser2 Part Number"
+F7 "" 1150 -400 50 H I L CNN "Mouser2 Price/Stock"
 F8 "NXP" 1150 -500 50 H I L CNN "Manufacturer_Name"
 F9 "PCA9543APW,118" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
 DRAW

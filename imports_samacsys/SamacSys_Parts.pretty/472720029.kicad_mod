@@ -55,10 +55,10 @@
   (pad MH2 thru_hole circle (at -8.250 -4.69) (size 2.565 2.565) (drill 1.71) (layers *.Cu *.Mask))
   (pad MH3 thru_hole circle (at 8.250 2.09) (size 1.875 1.875) (drill 1.25) (layers *.Cu *.Mask))
   (pad MH4 thru_hole circle (at -8.250 2.09) (size 1.875 1.875) (drill 1.25) (layers *.Cu *.Mask))
-  (pad MH5 np_thru_hole circle (at 0.000 2.99) (size 1.4 0) (drill 1.4) (layers *.Cu *.Mask))
+  (pad MH5 np_thru_hole circle (at 0.000 2.99) (size 1.4 1.4) (drill 1.4) (layers *.Cu *.Mask))
   (model "C:\\programming_land\\kicad_libs\\imports_samacsys\\SamacSys_Parts.3dshapes\\47272-0029.stp"
-    (at (xyz 0 0 0))
+    (at (xyz -0.027952755060722 -0.26417322984831 0.14015747806219))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
