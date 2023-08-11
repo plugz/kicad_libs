@@ -48,4 +48,10 @@ K
 F http://www.nxp.com/docs/en/data-sheet/PCA9543A_43B.pdf
 $ENDCMP
 #
+$CMP RFM-0505S
+D RECOM POWER - RFM-0505S - DC-DC CONVERTER, 5V, 0.2A
+K
+F https://componentsearchengine.com//RFM-0505S.pdf
+$ENDCMP
+#
 #End Doc Library
