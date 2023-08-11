@@ -1,9 +1,6 @@
 [submodule "digikey-kicad-library"]
 	path = digikey-kicad-library
 	url = https://github.com/Digi-Key/digikey-kicad-library
-[submodule "Keyboard.pretty"]
-	path = Keyboard.pretty
-	url = https://github.com/stormbard/Keyboard.pretty
 [submodule "kicad-ESP8266"]
 	path = kicad-ESP8266
 	url = https://github.com/jdunmire/kicad-ESP8266
