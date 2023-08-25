@@ -54,4 +54,16 @@ K
 F https://componentsearchengine.com//RFM-0505S.pdf
 $ENDCMP
 #
+$CMP 2002101855
+D Potentiometers 0.5W 250V 10kOhm +/-20%
+K
+F https://www.mouser.de/datasheet/2/40/TGN805M-1900560.pdf
+$ENDCMP
+#
+$CMP 6N137SDM
+D 10MBit/s Transistor Optocoupler DIP SMD8
+K
+F https://www.onsemi.com/pub/Collateral/HCPL2631M-D.pdf
+$ENDCMP
+#
 #End Doc Library
