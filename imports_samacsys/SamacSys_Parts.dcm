@@ -66,4 +66,10 @@ K
 F https://www.onsemi.com/pub/Collateral/HCPL2631M-D.pdf
 $ENDCMP
 #
+$CMP CAT24C208WI-GT3
+D ON Semiconductor CAT24C208WI-GT3, 8kbit EEPROM Memory 8-Pin SOIC Serial, Serial-I2C
+K
+F https://www.onsemi.com/download/data-sheet/pdf/cat24c208-d.pdf
+$ENDCMP
+#
 #End Doc Library
