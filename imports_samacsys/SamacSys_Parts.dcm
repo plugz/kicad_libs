@@ -78,4 +78,22 @@ K
 F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/89d986a89c59d1844ef77b6f65b8a4d2.pdf
 $ENDCMP
 #
+$CMP TMDS181RGZR
+D 6 Gbps HDMI&#174; Retimer
+K
+F http://www.ti.com/lit/gpn/tmds181
+$ENDCMP
+#
+$CMP TLV62090RGTR
+D 3A High Efficiency Step Down Converter in 3x3mm QFN Package
+K
+F https://www.ti.com/lit/gpn/tlv62090
+$ENDCMP
+#
+$CMP PCA9306DP1,125
+D Dual bidirectional I2C-bus and SMBus voltage-level translator
+K
+F https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf
+$ENDCMP
+#
 #End Doc Library
