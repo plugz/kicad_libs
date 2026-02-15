@@ -17,4 +17,4 @@ add libraries in sym-lib-table
   (lib (name ESP8266)(type Legacy)(uri ${PLUGZ_KICAD_LIBS_DIR}/kicad-ESP8266/ESP8266.lib)(options "")(descr ""))
   (lib (name homemade_symbols)(type "KiCad")(uri ${PLUGZ_KICAD_LIBS_DIR}/homemade_symbols/homemade_symbols.kicad_sym)(options "")(descr ""))
   (lib (name SamacSys)(type Legacy)(uri ${PLUGZ_KICAD_LIBS_DIR}/imports_samacsys/SamacSys_Parts.lib)(options "")(descr ""))
-  (lib (name teensy)(type Legacy)(uri ${PLUGZ_KICAD_LIBS_DIR}/teensy_library/teensy.lib)(options "")(descr ""))
+  (lib (name teensy)(type "KiCad")(uri ${PLUGZ_KICAD_LIBS_DIR}/teensy_library/teensy.kicad_sym)(options "")(descr ""))
