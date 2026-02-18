@@ -102,4 +102,10 @@ K
 F https://componentsearchengine.com//KSZ8081MNXIA-TR.pdf
 $ENDCMP
 #
+$CMP ASDDV-25.000MHZ-LC-T
+D 25 MHz XO (Standard) HCMOS, LVCMOS Oscillator 1.6V ~ 3.6V Enable/Disable 4-SMD, No Lead
+K
+F https://abracon.com/datasheets/ASDDV.pdf
+$ENDCMP
+#
 #End Doc Library
