@@ -96,4 +96,10 @@ K
 F https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf
 $ENDCMP
 #
+$CMP KSZ8081MNXIA-TR
+D Ethernet ICs 10/100 BASE-TX Physical Layer Transceiver
+K
+F https://componentsearchengine.com//KSZ8081MNXIA-TR.pdf
+$ENDCMP
+#
 #End Doc Library
