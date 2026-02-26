@@ -108,4 +108,10 @@ K
 F https://abracon.com/datasheets/ASDDV.pdf
 $ENDCMP
 #
+$CMP M95640-RMN6P
+D 64-Kbit serial SPI bus EEPROM with high-speed clock
+K
+F https://www.st.com/resource/en/datasheet/m95640-w.pdf
+$ENDCMP
+#
 #End Doc Library
