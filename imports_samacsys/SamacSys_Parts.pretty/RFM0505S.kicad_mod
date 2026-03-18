@@ -31,7 +31,7 @@
   (pad 3 thru_hole circle (at 5.080 -0) (size 1.725 1.725) (drill 1.15) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 7.620 -0) (size 1.725 1.725) (drill 1.15) (layers *.Cu *.Mask))
   (model "C:\\programming_land\\kicad_libs\\imports_samacsys\\SamacSys_Parts.3dshapes\\RFM-0505S.stp"
-    (at (xyz -0.076377955008679 -0.047244096365501 0))
+    (at (xyz 0.14999999774723 0.05708661605054 0.021259843364475))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

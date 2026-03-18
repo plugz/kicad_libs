@@ -336,11 +336,11 @@ DEF RFM-0505S PS 0 30 Y Y 1 F N
 F0 "PS" 850 300 50 H V L CNN
 F1 "RFM-0505S" 850 200 50 H V L CNN
 F2 "RFM0505S" 850 100 50 H I L CNN
-F3 "https://componentsearchengine.com//RFM-0505S.pdf" 850 0 50 H I L CNN
+F3 "https://www.recom-power.com/pdf/Econoline/RFM.pdf" 850 0 50 H I L CNN
 F4 "RECOM POWER - RFM-0505S - DC-DC CONVERTER, 5V, 0.2A" 850 -100 50 H I L CNN "Description"
 F5 "10.5" 850 -200 50 H I L CNN "Height"
-F6 "919-RFM-0505S" 850 -300 50 H I L CNN "Mouser2 Part Number"
-F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=919-RFM-0505S" 850 -400 50 H I L CNN "Mouser2 Price/Stock"
+F6 "" 850 -300 50 H I L CNN "Farnell Part Number"
+F7 "" 850 -400 50 H I L CNN "Farnell Price/Stock"
 F8 "RECOM Power" 850 -500 50 H I L CNN "Manufacturer_Name"
 F9 "RFM-0505S" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
@@ -677,6 +677,58 @@ X ~HOLD 7 1100 -100 200 L 50 50 0 0 P
 X C 6 1100 -200 200 L 50 50 0 0 P
 X D 5 1100 -300 200 L 50 50 0 0 P
 P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AP2281-3WG-7
+#/440490/278150/2.50/6/2/Integrated Circuit
+DEF AP2281-3WG-7 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "AP2281-3WG-7" 1050 200 50 H V L CNN
+F2 "SOT95P285X140-6N" 1050 100 50 H I L CNN
+F3 "https://www.diodes.com//assets/Datasheets/AP2280.pdf" 1050 0 50 H I L CNN
+F4 "DiodesZetex AP2281-3WG-7 Intelligent Power Switch, High Side, 2A, 1.5  6V, 6-Pin, SOT-26" 1050 -100 50 H I L CNN "Description"
+F5 "1.4" 1050 -200 50 H I L CNN "Height"
+F6 "" 1050 -300 50 H I L CNN "Farnell Part Number"
+F7 "" 1050 -400 50 H I L CNN "Farnell Price/Stock"
+F8 "Diodes Incorporated" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AP2281-3WG-7" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 P
+X GND_1 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X IN_2 6 1200 0 200 L 50 50 0 0 P
+X GND_2 5 1200 -100 200 L 50 50 0 0 P
+X IN_1 4 1200 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MP2331HGTL-P
+#/4551632/278150/2.50/8/4/Integrated Circuit
+DEF MP2331HGTL-P IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "MP2331HGTL-P" 850 200 50 H V L CNN
+F2 "MP2331HGTLP" 850 100 50 H I L CNN
+F3 "" 850 0 50 H I L CNN
+F4 "Switching Voltage Regulators High-Efficiency, 2A, 24V, 1200kHz, Synchronous, Step-Down Converter" 850 -100 50 H I L CNN "Description"
+F5 "0.6" 850 -200 50 H I L CNN "Height"
+F6 "Monolithic Power Systems (MPS)" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MP2331HGTL-P" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "946-MP2331HGTL-P" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP2331HGTL-P?qs=%252B6g0mu59x7Ij5sy9rXVbTg%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X PG 1 0 0 200 R 50 50 0 0 P
+X IN 2 0 -100 200 R 50 50 0 0 P
+X SW 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X BST 5 1000 -300 200 L 50 50 0 0 P
+X EN 6 1000 -200 200 L 50 50 0 0 P
+X SS 7 1000 -100 200 L 50 50 0 0 P
+X FB 8 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
 ENDDRAW
 ENDDEF
 #

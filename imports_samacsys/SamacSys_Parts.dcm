@@ -51,7 +51,7 @@ $ENDCMP
 $CMP RFM-0505S
 D RECOM POWER - RFM-0505S - DC-DC CONVERTER, 5V, 0.2A
 K
-F https://componentsearchengine.com//RFM-0505S.pdf
+F https://www.recom-power.com/pdf/Econoline/RFM.pdf
 $ENDCMP
 #
 $CMP 2002101855
@@ -112,6 +112,18 @@ $CMP M95640-RMN6P
 D 64-Kbit serial SPI bus EEPROM with high-speed clock
 K
 F https://www.st.com/resource/en/datasheet/m95640-w.pdf
+$ENDCMP
+#
+$CMP AP2281-3WG-7
+D DiodesZetex AP2281-3WG-7 Intelligent Power Switch, High Side, 2A, 1.5  6V, 6-Pin, SOT-26
+K
+F https://www.diodes.com//assets/Datasheets/AP2280.pdf
+$ENDCMP
+#
+$CMP MP2331HGTL-P
+D Switching Voltage Regulators High-Efficiency, 2A, 24V, 1200kHz, Synchronous, Step-Down Converter
+K
+F 
 $ENDCMP
 #
 #End Doc Library
