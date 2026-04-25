@@ -1,0 +1,185 @@
+(footprint "L_Bourns_SRP4020CC"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Inductor, Bourns, SRP5030T, 5.7x5.2x2.8mm, (https://www.bourns.com/data/global/pdfs/SRP5030T.pdf)")
+	(tags "power shielded")
+	(property "Reference" "REF**"
+		(at 0 -3.55 0)
+		(layer "F.SilkS")
+		(uuid "286cf5b2-c056-4ece-b7e3-d155537c0114")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Bourns_SRP4020CC"
+		(at 0 3.55 0)
+		(layer "F.Fab")
+		(uuid "ea275a2b-8d40-461d-9697-e469c82443ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "013b411f-c631-4f60-a9e3-c2e023718942")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18f61ff9-04a4-45cc-9160-cef98bfd52b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "inductor/SMD"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b7a4caa0-76de-4513-be92-a9ddbb6d7bed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.15 -2.2)
+		(end 2.15 -2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1dbdb6f-91a6-45be-9744-7011c056f3cf")
+	)
+	(fp_line
+		(start -2.15 -1.3)
+		(end -2.15 -2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68ccc175-2cc7-4f64-afed-591fe91d528c")
+	)
+	(fp_line
+		(start -2.15 2.2)
+		(end -2.15 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c92b6796-9e60-4ff3-8a48-1f15d6dbd84e")
+	)
+	(fp_line
+		(start 2.15 -2.2)
+		(end 2.15 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3030d5cc-870e-4676-950b-f442392cdad7")
+	)
+	(fp_line
+		(start 2.15 1.3)
+		(end 2.15 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59af1dab-b640-4f5a-a6d1-dcc58655dfbd")
+	)
+	(fp_line
+		(start 2.15 2.2)
+		(end -2.15 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e872f95-153b-4241-9bb4-f77bb1f302cf")
+	)
+	(fp_rect
+		(start -2.65 -2.35)
+		(end 2.65 2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "add702c0-1048-4e1f-8a0a-8e2c32f4824c")
+	)
+	(fp_rect
+		(start -1.975 -2.03)
+		(end 1.975 2.03)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "199b7bf5-46c9-4aa1-81a5-5282d32d63ca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d65b0e9b-04f6-4c99-bd57-9b9e20162b08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.85 0)
+		(size 1.5 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.138889)
+		(uuid "6b41162e-bec8-48db-856e-f9b5ff08f44b")
+	)
+	(pad "2" smd roundrect
+		(at 1.85 0)
+		(size 1.5 2.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.138889)
+		(uuid "298691e6-76c6-4108-9fbb-adb1ab311190")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRP5030T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
