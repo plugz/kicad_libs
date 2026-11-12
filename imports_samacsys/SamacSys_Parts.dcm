@@ -132,4 +132,10 @@ K
 F 
 $ENDCMP
 #
+$CMP 74LVC1T45W6-7
+D Translation - Voltage Levels Logic LVC 1G Translator
+K
+F https://www.diodes.com//assets/Datasheets/74LVC1T45.pdf
+$ENDCMP
+#
 #End Doc Library
